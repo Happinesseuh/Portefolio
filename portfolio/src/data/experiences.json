@@ -2,12 +2,21 @@
     "fr": {
         "experiences": [
             {
-                "logo": "Login.png",
+                "logo": "Login.jpeg",
                 "company": "Login Sécurité",
                 "sector": "Cybersécurité",
                 "title": "Développeuse Fullstack",
                 "description": "- Création de nouvelles fonctionnalités pour les utilisateurs\nMaintenance du portail\nNotions de sécurité",
-                "duration": "4 mois"
+                "duration": "4 mois",
+                "tags": [
+                    "Angular",
+                    "NodeJS",
+                    "Bulma",
+                    "Angular",
+                    "PostgreSQL"
+                ],
+                "site": "https://www.login-securite.com/",
+                "location": "Saint-Cloud"
             },
             {
                 "logo": "DataImpact.png",
@@ -15,7 +24,14 @@
                 "sector": "Big Data, E-commerce",
                 "title": "Développeuse Web Scraping",
                 "description": "- Scraping de sites e-commerce\n- Analyse de données\n- Découverte du framework Scrapy\n- Automatisation de la récolte de données",
-                "duration": "4 mois"
+                "duration": "4 mois",
+                "tags": [
+                    "Scrapy",
+                    "Selenium",
+                    "Python"
+                ],
+                "site": "https://www.dataimpact.io/",
+                "location": "Paris"
             },
             {
                 "logo": "Epitech.png",
@@ -23,7 +39,15 @@
                 "sector": "École d'informatique",
                 "title": "Assistante technique",
                 "description": "- Animation et encadrement d'activités\n- Accompagnement continue avec des étudiants\n- Approche pédagogique efficace\n- Création de contenu à destination des étudiants",
-                "duration": "10 mois"
+                "duration": "10 mois",
+                "tags": [
+                    "C",
+                    "C++",
+                    "Pédagogie",
+                    "Création de contenue"
+                ],
+                "site": "https://www.epitech.eu/",
+                "location": "Kremlin-Bicêtre"
             },
             {
                 "logo": "Taker.png",
@@ -31,7 +55,15 @@
                 "sector": "Junior conseil",
                 "title": "Chef de projet",
                 "description": "- Management d'équipe (Méthode Agile)\n- Gestion de la relation client\n- Prospection client\n- Organisation d'évenements avec des entreprises",
-                "duration": "10 mois"
+                "duration": "10 mois",
+                "tags": [
+                    "Gestion",
+                    "Prospection",
+                    "Organisation d'évenement",
+                    "Relation client"
+                ],
+                "site": "https://juniortaker.com/",
+                "location": "Kremlin-Bicêtre"
             }
         ]
     },
@@ -43,7 +75,16 @@
                 "sector": "Cybersecurity",
                 "title": "Fullstack Developer",
                 "description": "- Creating new functionalities for users\n- Portal maintenance\n- Security concepts",
-                "duration": "4 months"
+                "duration": "4 months",
+                "tags": [
+                    "Angular",
+                    "NodeJS",
+                    "Bulma",
+                    "Angular",
+                    "PostgreSQL"
+                ],
+                "site": "https://www.login-securite.com/",
+                "location": "Saint-Cloud"
             },
             {
                 "logo": "DataImpact.png",
@@ -51,7 +92,14 @@
                 "sector": "Big Data, E-commerce",
                 "title": "Web Scraping Developer",
                 "description": "- Scraping e-commerce sites\n- Data analysis\n- Discovering the Scrapy framework\n- Automating data collection",
-                "duration": "4 months"
+                "duration": "4 months",
+                "tags": [
+                    "Scrapy",
+                    "Selenium",
+                    "Python"
+                ],
+                "site": "https://www.dataimpact.io/",
+                "location": "Paris"
             },
             {
                 "logo": "Epitech.png",
@@ -59,7 +107,15 @@
                 "sector": "School of Computing",
                 "title": "Technical assistant",
                 "description": "- Leading and supervising activities\n- Ongoing coaching with students\n- Effective pedagogical approach\n- Creating content for students",
-                "duration": "10 months"
+                "duration": "10 months",
+                "tags": [
+                    "C",
+                    "C++",
+                    "Pedagogy",
+                    "Content creation"
+                ],
+                "site": "https://www.epitech.eu/",
+                "location": "Kremlin-Bicêtre"
             },
             {
                 "logo": "Taker.png",
@@ -67,7 +123,15 @@
                 "sector": "Junior conseil",
                 "title": "Project Manager",
                 "description": "- Team management (Agile Method)\n- Customer relationship management\n- Customer prospecting\n- Event organization with companies",
-                "duration": "10 months"
+                "duration": "10 months",
+                "tags": [
+                    "Management",
+                    "Prospection",
+                    "Event organization",
+                    "Customer relations"
+                ],
+                "site": "https://juniortaker.com/",
+                "location": "Kremlin-Bicêtre"
             }
         ]
     }

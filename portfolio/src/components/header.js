@@ -43,7 +43,7 @@ function NavBar() {
     return (
         <>
             <nav className="navbar is-transparent is-fixed-top primary-color">
-                <div className="navbar-brand m-2 mt-4 mb-0">
+                <div className="navbar-brand m-2 mb-0">
                     <a className="navbar-item is-hoverable mt-3" href="/">
                         <figure>
                             <img alt="logo" src={logo}></img>
@@ -60,7 +60,7 @@ function NavBar() {
                 </div>
 
                 <div id="navbarBasicExample" className={`navbar-menu ${isActive ? "is-active" : ""}`}>
-                    <div key="navlist" className="navbar-start pt-4">
+                    <div key="navlist" className="navbar-start">
                         {routesList}
                     </div>
 

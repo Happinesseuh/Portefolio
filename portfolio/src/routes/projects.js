@@ -20,11 +20,7 @@ function Home() {
 
     return (
         <>
-            <header>
-                <section className="section primary-color">
                     <Header />
-                </section>
-            </header>
                 
             {/* <div className="card radius-0  primary-color pt-4 pb-4">
                 <div className="columns m-6">

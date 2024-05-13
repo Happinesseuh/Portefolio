@@ -1,5 +1,6 @@
 html {
   background-color: #e8dbcf !important;
+  white-space: pre-line;
 }
 
 .primary-color {
@@ -20,4 +21,40 @@ nav.navbar a.active {
   text-decoration-thickness: 5px !important;
   text-decoration-style: solid;
   text-underline-offset: 10px;
+}
+
+.card {
+  height: 100%;
+}
+
+.brown-border {
+  border-color:#6d4e3a;
+  border-style: solid;
+}
+
+.radius-0 {
+  border-radius: 0rem !important;
+}
+
+.text-underlined {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 15px !important;
+  text-decoration-style: solid;
+  text-underline-offset: 20px;
+}
+
+.text-underlined-brown {
+  text-decoration: underline;
+  text-decoration-color: #6d4e3a;
+  text-decoration-thickness: 15px !important;
+  text-decoration-style: solid;
+  text-underline-offset: 20px;
+}
+.has-text-brown-light {
+  color : #e8dbcf;
+}
+
+.primary-color-brown-light {
+  background-color : #e8dbcf !important;
 }
