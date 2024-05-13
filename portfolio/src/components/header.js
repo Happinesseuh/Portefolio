@@ -42,7 +42,7 @@ function NavBar() {
 
     return (
         <>
-            <nav className="navbar is-transparent is-fixed-top">
+            <nav className="navbar is-transparent is-fixed-top has-background-white">
                 <div className="navbar-brand m-2 ml-6 mb-0">
                     <a className="navbar-item is-hoverable mt-3" href="/">
                         <figure>

@@ -1,5 +1,5 @@
 html {
-  background-color: #ffffff !important;
+  background-color: white !important;
   white-space: pre-line;
 }
 
@@ -71,4 +71,24 @@ nav.navbar a.active {
 
 .primary-color-purple-light {
   background-color : #6E06F2 !important;
+}
+
+.magenta-tag {
+  background-color : #f500b2 !important;
+}
+
+.pink-tag {
+  background-color : #ff0073 !important;
+}
+
+.orange-tag {
+  background-color : #ff7745 !important;
+}
+
+.orange-light-tag {
+  background-color : #ffbf3c !important;
+}
+
+.yellow-tag {
+  background-color : #f9f871 !important;
 }

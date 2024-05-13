@@ -22,10 +22,8 @@ function Home() {
         <>
             <Header />
 
-            <div className="card radius-0  primary-color pt-2 pb-2 mt-0">
-                <div className="is-size-1 has-text-centered has-text-weight-bold pt-6 m-6 has-text-white is-relative">Contactez-moi !</div>
-                <div className="is-size-4 has-text-centered m-4 has-text-white is-relative pb-6">
-                    Vous pouvez me joindre par téléphone, par mail ou via linkedin</div>
+            <div className="pt-6 mt-0">
+                <div className="p-4 ml-6 mb-6 is-size-2 has-text-centered text-underlined-purple is-size-1 is-relative">Me contacter <strong className="text-color-purple-light">.</strong></div>
             </div>
 
             <div className="my-6">
