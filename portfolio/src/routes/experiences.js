@@ -37,10 +37,8 @@ function Person() {
             <Header />
 
 
-            <div className="card radius-0  primary-color pt-2 pb-2 mt-0">
-                <div className="is-size-1 has-text-centered has-text-weight-bold pt-6 m-6 has-text-white is-relative">Mes expériences</div>
-                <div className="is-size-4 has-text-centered m-4 has-text-white is-relative pb-6">
-                    L'ensemble des postes que j'ai pu occuper</div>
+            <div className="pt-6 mt-0">
+                <div className="p-4 ml-6 mb-6 is-size-2 has-text-centered text-underlined-purple is-size-1 is-relative">Mes expériences <strong className="text-color-purple-light">.</strong></div>
             </div>
 
             <div className="mt-6"><br></br>

@@ -32,7 +32,7 @@ function NavBar() {
             <div className="m-2 ml-6 navbar-item is-size-5" key={index}>
                 <NavLink
                     to={names[index] === "Presentation" ? "/" : ("/" + names[index])}
-                    className={`${isDropdown ? "has-text-black" : "has-text-white"}`}
+                    className={`${isDropdown ? "has-text-black" : "has-text-black"}`}
                 >
                     {route}
                 </NavLink>
@@ -42,7 +42,7 @@ function NavBar() {
 
     return (
         <>
-            <nav className="navbar is-transparent is-fixed-top primary-color">
+            <nav className="navbar is-transparent is-fixed-top">
                 <div className="navbar-brand m-2 ml-6 mb-0">
                     <a className="navbar-item is-hoverable mt-3" href="/">
                         <figure>

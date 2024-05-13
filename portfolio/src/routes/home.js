@@ -21,13 +21,13 @@ function Home() {
     const { t } = useTranslation();
 
     return (
-        <div className="primary-color">
+        <div>
             <Header />
-            <div class="columns is-centered mt-6 mb-0 pb-6 primary-color">
+            <div class="columns is-centered mt-6 mb-0 pb-6">
                 <div class="column is-three-fifths mb-0 pb-0">
                     <div className="m-5 has-text-weight-bold is-jusitfy-content-center has-text-big-size has-text-white mb-0">
-                        <div className="content is-flex is-align-items-center pl-2 ml-6 pt-6">
-                            <p>Hi,<br />I'm <strong className="has-text-pink-light">Inès Maaroufi</strong><br />Fullstack Developer</p>
+                        <div className="content is-flex is-align-items-center pl-2 ml-6 pt-6 has-text-black">
+                            <p>Hi,<br />I'm <strong className="has-text-purple">Inès Maaroufi</strong><br />Fullstack Developer</p>
                         </div>
                         <div className="column mb-0">
                             <a href="/Contact">
@@ -45,12 +45,12 @@ function Home() {
                 </div>
             </div>
 
-            <div className="card primary-color-brown-light radius-0 has-text-centered p-5 mb-0">
+            <div className="has-text-centered p-5 mb-0">
                 <div className="p-4 ml-6 mb-6 is-size-2 has-text-centered text-underlined-purple">À propos de moi <strong className="text-color-purple-light">.</strong></div>
                 <div className="p-4 ml-6 is-size-5">Actuellement étudiante en 5ème année à <strong className="has-text-brown">Epitech Paris</strong>, et future diplômée (2025), je suis à la recherche d'un  <strong className="has-text-brown">part-time</strong> de 3 jours par semaine <strong className="has-text-brown">(Lundi, mardi, mercredi)</strong> débutant le 02/09/24 et finissant le 26/02/25, pouvant déboucher sur un <strong className="has-text-brown">stage de fin d'étude</strong></div>
             </div>
 
-            <div className="card radius-0 has-text-centered p-5">
+            <div className="has-text-centered p-5">
                 <div className="p-4 ml-6 mb-6 is-size-2 has-text-centered text-underlined-purple">Mes compétences <strong className="text-color-purple-light">.</strong></div>
                 <div className="columns p-6">
                     <div className="column">

@@ -22,7 +22,7 @@ html {
 
 nav.navbar a.active {
   text-decoration: underline;
-  text-decoration-color: white;
+  text-decoration-color: #6E06F2;
   text-decoration-thickness: 5px !important;
   text-decoration-style: solid;
   text-underline-offset: 10px;
