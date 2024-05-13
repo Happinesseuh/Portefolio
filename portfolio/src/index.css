@@ -1,15 +1,20 @@
 html {
-  background-color: #e8dbcf !important;
+  background-color: #ffffff !important;
   white-space: pre-line;
 }
 
 .primary-color {
-  background-color: #6d4e3a !important;
+  background-color: #6E06F2 !important;
 }
 
-.has-text-brown {
-  color: #6d4e3a !important;
+.primary-color-light {
+  background-color: #00fdc6 !important;
 }
+
+.has-text-purple {
+  color: #6E06F2 !important;
+}
+
 
 .has-text-big-size {
   font-size: 4em !important;
@@ -27,8 +32,8 @@ nav.navbar a.active {
   height: 100%;
 }
 
-.brown-border {
-  border-color:#6d4e3a;
+.blue-border {
+  border-color:#6E06F2;
   border-style: solid;
 }
 
@@ -44,17 +49,26 @@ nav.navbar a.active {
   text-underline-offset: 20px;
 }
 
-.text-underlined-brown {
+.text-underlined-purple {
   text-decoration: underline;
-  text-decoration-color: #6d4e3a;
+  text-decoration-color: #6E06F2;
   text-decoration-thickness: 15px !important;
   text-decoration-style: solid;
   text-underline-offset: 20px;
 }
-.has-text-brown-light {
-  color : #e8dbcf;
+
+.has-text-purple-light {
+  color : #00fdc6;
 }
 
-.primary-color-brown-light {
-  background-color : #e8dbcf !important;
+.text-color-purple-light {
+  color : #00fdc6;
+}
+
+.has-text-pink-light {
+  color : #00fdc6;
+}
+
+.primary-color-purple-light {
+  background-color : #6E06F2 !important;
 }

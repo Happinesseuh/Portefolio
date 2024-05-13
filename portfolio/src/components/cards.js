@@ -17,12 +17,12 @@ function Cards(props) {
 
     return (
         <div className="column is-one-third" key={props.index}>
-            <div className="card">
+            <div className="card ">
                 <div className="">
                     <div className='columns'>
                         <div className='column'>
                             <figure className="ml-6 mt-5 image is-inline-block is-pulled-left">
-                                <img style={{ width: '70px', height: '70px' }} className="brown-border is-rounded" src={picture} alt="Placeholder image" />
+                                <img style={{ width: '70px', height: '70px' }} className="blue-border is-rounded" src={picture} alt="Placeholder image" />
                             </figure>
                         </div>
                         <div className='column'>
