@@ -1,0 +1,182 @@
+{
+    "fr": {
+        "projects": [
+            {
+                "logo": "Getout.jpeg",
+                "sector": "Social",
+                "title": "Getout",
+                "description": "Application mobile de propositions d'alternatives à l'utilisation des réseaux sociaux tels que des films, livres et loisirs, visant à réduire le temps passé sur les réseaux sociaux des utilisateurs.",
+                "year": "2024",
+                "tags": [
+                    "Flutter",
+                    "Flutter Bloc",
+                    "PosgreSQL",
+                    "TypeORM",
+                    "NodeTs"
+                ],
+                "site": ""
+            },
+            {
+                "logo": "safeRespirator.png",
+                "sector": "Data",
+                "title": "SafeRespirator",
+                "description": "Site web présentant une banque de données issue d'un projet de recherche auquel participent des étudiants de l'UQAR et de l'Université Laval, en association avec des chercheurs de l'IRSST, qui étudient les fuites d'air lors de l'utilisation d'un l'APR à l'aide de l'IA et d'une caméra infrarouge.",
+                "year": "2024",
+                "tags": [
+                    "React",
+                    "Bulma",
+                    "Zustand",
+                    "Vercel"
+                ],
+                "site": "https://ai-infrared-mask-leak-detection-website.vercel.app/"
+            },
+            {
+                "logo": "portfolio.png",
+                "sector": "Social",
+                "title": "Portfolio",
+                "description": "Site web permettant de mettre en avant mes expériences et mes compétences.",
+                "year": "2024",
+                "tags": [
+                    "React",
+                    "Bulma",
+                    "Vercel"
+                ],
+                "site": ""
+            },
+            {
+                "logo": "blocNotes.png",
+                "sector": "Data",
+                "title": "Bloc notes",
+                "description": "Application mobile permettant à un utilisateur de pouvoir créer, modifier et supprimer des notes.",
+                "year": "2021",
+                "tags": [
+                    "React Native",
+                    "Mysql",
+                    "Docker",
+                    "Express"
+                ],
+                "site": ""
+            },
+            {
+                "logo": "Area.jpeg",
+                "sector": "Data",
+                "title": "Area",
+                "description": "Application web et mobile permettant à un utilisateur d'intégrer les données d'un service à une autre et d'automatiser les workflows.",
+                "year": "2021",
+                "tags": [
+                    "React Native",
+                    "React",
+                    "TypeORM",
+                    "PostgreSQL",
+                    "Express"
+                ],
+                "site": ""
+            },
+            {
+                "logo": "koic.png",
+                "sector": "Data",
+                "title": "Koic",
+                "description": "Koic est un épouvantail connecté équipé de caméras qui filment le terrain en temps réel. Les images filmées sont ensuite analysées. En fonction de l'animal touché, l'épouvantail choisira un moyen adapté pour le repousser de manière naturelle.",
+                "year": "2021",
+                "tags": [
+                    "React Native",
+                    "React",
+                    "TypeORM",
+                    "PostgreSQL",
+                    "Express"
+                ],
+                "site": "https://github.com/PoCInnovation/Koic"
+            }
+        ]
+    },
+    "en": {
+        "projects": [
+            {
+                "logo": "Getout.jpeg",
+                "sector": "Social",
+                "title": "Getout",
+                "description": "Mobile application offering alternatives to the use of social networks such as films, books and leisure activities, aimed at reducing users' time spent on social networks.",
+                "year": "2024",
+                "tags": [
+                    "Flutter",
+                    "Flutter Bloc",
+                    "PosgreSQL",
+                    "TypeORM",
+                    "NodeTs"
+                ],
+                "site": ""
+            },
+            {
+                "logo": "SafeRespirator.jpeg",
+                "sector": "Data",
+                "title": "SafeRespirator",
+                "description": "Website presenting a database resulting from a research project involving students from UQAR and Université Laval, in association with IRSST researchers, who are studying air leakage during the use of an APR using AI and an infrared camera.",
+                "year": "2024",
+                "tags": [
+                    "React",
+                    "Bulma",
+                    "Zustand",
+                    "Vercel"
+                ],
+                "site": "https://ai-infrared-mask-leak-detection-website.vercel.app/"
+            },
+            {
+                "logo": "Portfolio.jpeg",
+                "sector": "Social",
+                "title": "Portfolio",
+                "description": "Website to showcase my experience and skills.",
+                "year": "2024",
+                "tags": [
+                    "React",
+                    "Bulma",
+                    "Vercel"
+                ],
+                "site": ""
+            },
+            {
+                "logo": "BlocNotes.jpeg",
+                "sector": "Data",
+                "title": "Bloc notes",
+                "description": "Mobile application enabling users to create, modify and delete notes.",
+                "year": "2021",
+                "tags": [
+                    "React Native",
+                    "Mysql",
+                    "Docker",
+                    "Express"
+                ],
+                "site": ""
+            },
+            {
+                "logo": "Area.jpeg",
+                "sector": "Data",
+                "title": "Area",
+                "description": "Web and mobile application enabling users to integrate data from one department to another and automate workflows.",
+                "year": "2021",
+                "tags": [
+                    "React Native",
+                    "React",
+                    "TypeORM",
+                    "PostgreSQL",
+                    "Express"
+                ],
+                "site": ""
+            },
+            {
+                "logo": "Koic.jpeg",
+                "sector": "Data",
+                "title": "Koic",
+                "description": "Koic is a connected scarecrow equipped with cameras that film the terrain in real time. The filmed images are then analyzed. Depending on the animal involved, the scarecrow will choose an appropriate means to repel it naturally.",
+                "year": "2021",
+                "tags": [
+                    "React Native",
+                    "React",
+                    "TypeORM",
+                    "PostgreSQL",
+                    "Express"
+                ],
+                "site": ""
+            }
+        ]
+    }
+}

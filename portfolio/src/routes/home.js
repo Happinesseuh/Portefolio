@@ -23,7 +23,7 @@ function Home() {
     const fullstackTags = [];
 
     fullstack.forEach((elem, index) => {
-        fullstackTags.push(<span class="tag magenta-tag has-text-white">{elem}</span>);
+        fullstackTags.push(<span class="tag is-small magenta-tag has-text-white">{elem}</span>);
     });
 
     return (

@@ -30,7 +30,6 @@ function Cards(props) {
                                 {props.experience.site && <a href={props.experience.site}>
                                     {/* <box-icon name='google'></box-icon> */}
                                     <box-icon name="buildings"></box-icon>
-
                                 </a>}
                             </div>
                         </div>
