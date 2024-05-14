@@ -12,6 +12,7 @@ import Footer from '../components/footer'
 
 import { useTranslation } from 'react-i18next';
 
+import contact from '../assets/contact.png'
 
 
 function Home() {
@@ -26,9 +27,9 @@ function Home() {
                 <div className="p-4 ml-6 mb-6 mt-6 is-size-2 has-text-centered text-underlined-purple is-size-1 is-relative">Me contacter <strong className="text-color-purple-light">.</strong></div>
             </div>
 
-            <div className="my-6 center-screen">
+            <div className="mt-0 center-screen">
 
-                <div className="columns m-6">
+                <div className="columns m-6 mb-0 ">
                     <div style={{
                         'width': '400px',
                         'height': '220px'
@@ -55,6 +56,11 @@ function Home() {
                     </div>
                 </div>
 
+            </div>
+
+
+            <div className="mb-6 is-flex is-justify-content-center">
+                <img className="image" alt="contact" src={contact}></img>
             </div>
             <Footer />
         </>
