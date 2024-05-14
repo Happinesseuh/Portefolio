@@ -79,7 +79,7 @@ function Projects() {
             <Header />
 
             <div className="pt-6 mt-0">
-                <div className="p-4 ml-6 mb-6 is-size-2 has-text-centered text-underlined-purple is-size-1 is-relative">Mes expériences <strong className="text-color-purple-light">.</strong></div>
+                <div className="p-4 ml-6 mb-6 mt-6 is-size-2 has-text-centered text-underlined-purple is-size-1 is-relative">Mes projets <strong className="text-color-purple-light">.</strong></div>
             </div>
 
             <div className="columns is-multiline m-6">

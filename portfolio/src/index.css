@@ -92,3 +92,11 @@ nav.navbar a.active {
 .yellow-tag {
   background-color : #f9f871 !important;
 }
+
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 50vh;
+}
