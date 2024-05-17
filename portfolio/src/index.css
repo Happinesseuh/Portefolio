@@ -92,3 +92,7 @@ nav.navbar a.active {
 .yellow-tag {
   background-color : #f9f871 !important;
 }
+
+.card.box-shadow {
+  box-shadow: hsla( 221deg , 14% , 29% , 1);
+}
