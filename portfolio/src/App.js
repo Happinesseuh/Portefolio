@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import 'bulma/css/bulma.css';
+import "animate.css/animate.min.css";
+
 import { Routes, Route } from "react-router-dom";
 
 import Home from './routes/home';
