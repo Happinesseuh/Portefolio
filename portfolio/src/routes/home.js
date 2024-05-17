@@ -61,7 +61,7 @@ function Home() {
                 <div className="columns p-6 is-multiline">
 
                     <div className="column is-one-quarter">
-                        <div className="card p-5 is-flex is-justify-content-center is-align-items-center">
+                        <div className="card p-5 is-flex is-justify-content-center is-align-items-center has-background-white">
                             <div>
                                 <p className="has-text-weight-bold">Dev Fullstack</p><br />
                                 <div className="tags is-flex is-justify-content-center">{fullstackTags}</div>
@@ -71,7 +71,7 @@ function Home() {
 
 
                     <div className="column is-one-quarter">
-                        <div className="card p-5 is-flex is-justify-content-center is-align-items-center">
+                        <div className="card p-5 is-flex is-justify-content-center is-align-items-center has-background-white">
                             <div>
                                 <p className="has-text-weight-bold">Dev Ops</p><br />
                                 <div className="tags is-flex is-justify-content-center">
@@ -85,7 +85,7 @@ function Home() {
 
 
                     <div className="column is-one-quarter">
-                        <div className="card p-5 is-flex is-justify-content-center is-align-items-center">
+                        <div className="card p-5 is-flex is-justify-content-center is-align-items-center has-background-white">
                             <div>
                                 <p className="has-text-weight-bold">Dev Scrapping</p><br />
                                 <div className="tags is-flex is-justify-content-center">
@@ -97,7 +97,7 @@ function Home() {
                     </div>
 
                     <div className="column is-one-quarter">
-                        <div className="card p-5 is-flex is-justify-content-center is-align-items-center">
+                        <div className="card p-5 is-flex is-justify-content-center is-align-items-center has-background-white">
 
                             <div>
                                 <p className="has-text-weight-bold">Langage</p><br />
@@ -117,7 +117,7 @@ function Home() {
                     </div>
 
                     <div className="column is-one-quarter">
-                        <div className="card p-5 is-flex is-justify-content-center is-align-items-center">
+                        <div className="card p-5 is-flex is-justify-content-center is-align-items-center has-background-white">
                             <div>
 
                                 <p className="has-text-weight-bold">Pratiques</p><br />
@@ -132,7 +132,7 @@ function Home() {
                     </div>
 
                     <div className="column is-one-quarter">
-                        <div className="card p-5 is-flex is-justify-content-center is-align-items-center">
+                        <div className="card p-5 is-flex is-justify-content-center is-align-items-center has-background-white">
                             <div>
                                 <p className="has-text-weight-bold">Autre</p><br />
                                 <div className="tags is-flex is-justify-content-center">
