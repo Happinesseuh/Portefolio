@@ -1,6 +1,7 @@
 html {
   background-color: white !important;
   white-space: pre-line;
+  color: black;
 }
 
 .primary-color {
@@ -96,3 +97,4 @@ nav.navbar a.active {
 .card.box-shadow {
   box-shadow: hsla( 221deg , 14% , 29% , 1);
 }
+
