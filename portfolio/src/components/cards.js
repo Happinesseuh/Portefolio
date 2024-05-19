@@ -35,7 +35,7 @@ function Cards(props) {
 
                 <div className="card-content ml-5 mr-5">
                     <div className="content">
-                        <p className='is-size-6 has-text-grey'><strong className="title is-6">{props.experience.company} </strong>{props.experience.duration}</p>
+                        <p className='is-size-6 has-text-grey'><strong className="title is-6 has-text-black">{props.experience.company} </strong>{props.experience.duration}</p>
                         <p className='is-size-3 mb-3 is-size-5-mobile'>{props.experience.title}</p>
                         <p>{props.experience.sector}</p>
                         <hr />

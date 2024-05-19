@@ -30,27 +30,37 @@ function Home() {
                         <div style={{
                             'width': '400px',
                             'height': '220px'
-                        }} className="column card has-text-centered pb-6 mb-1 mr-6">
-                            <box-icon type='solid' name='phone' size='lg'></box-icon>
-                            <div className="is-size-4">{t('tel')}</div>
-                            <a href="tel:+33781594402">+33 7 81 59 44 02</a>
+                        }} className="column has-text-centered">
+                            <div className="card is-flex is-align-items-center is-justify-content-center is-flex-direction-column">
+                                <box-icon type='solid' name='phone' size='lg'></box-icon>
+                                <div className="is-size-4">{t('tel')}</div>
+                                <a href="tel:+33781594402">+33 7 81 59 44 02</a>
+                            </div>
                         </div>
                         <div style={{
                             'width': '400px',
                             'height': '220px'
-                        }} className="column card has-text-centered pb-6 mb-1 mr-6">
-                            <box-icon name='envelope' type='solid' size='lg'></box-icon>
-                            <p className="is-size-4">{t('mail')}</p>
-                            <a href="mailto:ines.maaroufi@epitech.eu">ines.maaroufi@epitech.eu</a>
+                        }} className="column has-text-centered">
+                            <div className="card is-flex is-align-items-center is-justify-content-center is-flex-direction-column">
+
+                                <box-icon name='envelope' type='solid' size='lg'></box-icon>
+                                <p className="is-size-4">{t('mail')}</p>
+                                <a href="mailto:ines.maaroufi@epitech.eu">ines.maaroufi@epitech.eu</a>
+                            </div>
                         </div>
+
                         <div style={{
                             'width': '400px',
                             'height': '220px'
-                        }} className="column card has-text-centered pb-6">
-                            <box-icon name='linkedin-square' type='logo' size='lg'></box-icon>
-                            <p className="is-size-4">{t('linkedin')}</p>
-                            <a href="https://www.linkedin.com/in/ines-maaroufi/">https://www.linkedin.com/in/ines-maaroufi/</a>
+                        }} className="column has-text-centered">
+                            <div className="card is-flex is-align-items-center is-justify-content-center is-flex-direction-column">
+
+                                <box-icon name='linkedin-square' type='logo' size='lg'></box-icon>
+                                <p className="is-size-4">{t('linkedin')}</p>
+                                <a href="https://www.linkedin.com/in/ines-maaroufi/">https://www.linkedin.com/in/ines-maaroufi/</a>
+                            </div>
                         </div>
+
                     </div>
 
                 </div>

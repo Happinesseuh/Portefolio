@@ -32,7 +32,7 @@ function NavBar() {
             <div className="m-2 ml-6 navbar-item is-size-5" key={index}>
                 <NavLink
                     to={names[index] === "Presentation" ? "/" : ("/" + names[index])}
-                    className={`${isDropdown ? "has-text-black" : "has-text-black"}`}
+                    className={`${isDropdown ? "has-text-white" : "has-text-black"}`}
                 >
                     {route}
                 </NavLink>
