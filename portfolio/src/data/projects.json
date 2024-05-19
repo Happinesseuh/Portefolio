@@ -92,7 +92,7 @@
     "en": {
         "projects": [
             {
-                "logo": "Getout.jpeg",
+                "logo": "Getout.png",
                 "sector": "Social",
                 "title": "Getout",
                 "description": "Mobile application offering alternatives to the use of social networks such as films, books and leisure activities, aimed at reducing users' time spent on social networks.",
@@ -107,7 +107,7 @@
                 "site": ""
             },
             {
-                "logo": "SafeRespirator.jpeg",
+                "logo": "safeRespirator.png",
                 "sector": "Data",
                 "title": "SafeRespirator",
                 "description": "Website presenting a database resulting from a research project involving students from UQAR and Université Laval, in association with IRSST researchers, who are studying air leakage during the use of an APR using AI and an infrared camera.",
@@ -121,7 +121,7 @@
                 "site": "https://ai-infrared-mask-leak-detection-website.vercel.app/"
             },
             {
-                "logo": "Portfolio.jpeg",
+                "logo": "portfolio.png",
                 "sector": "Social",
                 "title": "Portfolio",
                 "description": "Website to showcase my experience and skills.",
@@ -134,7 +134,7 @@
                 "site": ""
             },
             {
-                "logo": "BlocNotes.jpeg",
+                "logo": "blocNotes.png",
                 "sector": "Data",
                 "title": "Bloc notes",
                 "description": "Mobile application enabling users to create, modify and delete notes.",
@@ -148,7 +148,7 @@
                 "site": ""
             },
             {
-                "logo": "Area.jpeg",
+                "logo": "Area.png",
                 "sector": "Data",
                 "title": "Area",
                 "description": "Web and mobile application enabling users to integrate data from one department to another and automate workflows.",
@@ -163,7 +163,7 @@
                 "site": ""
             },
             {
-                "logo": "Koic.jpeg",
+                "logo": "koic.png",
                 "sector": "Data",
                 "title": "Koic",
                 "description": "Koic is a connected scarecrow equipped with cameras that film the terrain in real time. The filmed images are then analyzed. Depending on the animal involved, the scarecrow will choose an appropriate means to repel it naturally.",

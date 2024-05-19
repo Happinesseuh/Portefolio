@@ -3,28 +3,28 @@ import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
 import logo from '../assets/logo.png'
 
-// import { useTranslation } from 'react-i18next'; 
+import { useTranslation } from 'react-i18next';
 
 import 'boxicons';
 
 function NavBar() {
 
 
-    // const { t, i18n } = useTranslation();
-    const [lang , setLang] = useState('fr')
+    const { t, i18n } = useTranslation();
+    const [lang, setLang] = useState('fr')
 
     const [isActive, setisActive] = React.useState(false);
     const [isDropdown, setisDropdown] = React.useState(false);
 
-    const routes = ["Presentation", "Experiences", "Projects", "Contact"];
+    const routes = [t('home'), t('experiences'), t('projects'), t('contact')];
     const names = ["Presentation", "Experiences", "Projects", "Contact"];
 
     let routesList = [];
 
-    // function changeLanguage(event) {
-    //     setLang(event.target.value);
-    //     i18n.changeLanguage(lang);
-    // };
+    function changeLanguage(event) {
+        setLang(event.target.value);
+        i18n.changeLanguage(lang);
+    };
 
 
     routes.forEach((route, index) => {
@@ -43,12 +43,7 @@ function NavBar() {
     return (
         <>
             <nav className="navbar is-transparent is-fixed-top has-background-white">
-                <div className="navbar-brand m-2 ml-6 mb-0">
-                    <a className="navbar-item is-hoverable mt-3" href="/">
-                        <figure>
-                            <img alt="logo" src={logo}></img>
-                        </figure>
-                    </a>
+                <div className="navbar-brand">
                     <button className={`navbar-burger burger ${isActive ? "is-active" : ""}`} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onClick={() => {
                         setisActive(!isActive);
                         setisDropdown(!isDropdown);
@@ -67,14 +62,14 @@ function NavBar() {
                     <div className="navbar-end navbar-item">
                         <div className="control has-icons-left">
                             <div className="select is-medium">
-                                {/* <select value={lang} onChange={changeLanguage}> */}
-                                    {/* <option value="fr" defaultValue>{t('english')}</option>
-                                    <option value="en">{t('french')}</option> */}
-                                {/* </select> */}
+                                <span className="icon is-medium is-left ">
+                                    <box-icon name='globe'></box-icon>
+                                </span>
+                                <select value={lang} onChange={changeLanguage}>
+                                    <option value="fr" defaultValue>{t('english')}</option>
+                                    <option value="en">{t('french')}</option>
+                                </select>
                             </div>
-                            <span className="icon is-medium is-left ">
-                                <box-icon name='globe'></box-icon>
-                            </span>
                         </div>
                     </div>
                 </div>
