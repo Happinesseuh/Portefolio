@@ -3,6 +3,10 @@
   white-space: pre-line;
 } */
 
+html, body {
+  background-color: white; /* Couleur de fond globale */
+}
+
 #pre-line {
   white-space: pre-line;
 }
