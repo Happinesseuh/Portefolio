@@ -46,7 +46,7 @@ function Home() {
                             <div className="card div-3 is-flex is-align-items-center is-justify-content-center is-flex-direction-column">
                                 <box-icon name='linkedin-square' type='logo' size='lg'></box-icon>
                                 <div className="is-size-4">{t('linkedin')}</div>
-                                <a href="https://www.linkedin.com/in/ines-maaroufi/">https://www.linkedin.com/in/ines-maaroufi/</a>
+                                <a className="has-text-centered" href="https://www.linkedin.com/in/ines-maaroufi/">https://www.linkedin.com/in/ines-maaroufi/</a>
                             </div>
                         </div>
 
