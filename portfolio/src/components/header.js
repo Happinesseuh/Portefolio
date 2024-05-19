@@ -48,9 +48,9 @@ function NavBar() {
                         setisActive(!isActive);
                         setisDropdown(!isDropdown);
                     }}>
-                        <span className="has-text-white"></span>
-                        <span className="has-text-white"></span>
-                        <span className="has-text-white"></span>
+                        <span className="has-text-black"></span>
+                        <span className="has-text-black"></span>
+                        <span className="has-text-black"></span>
                     </button>
                 </div>
 
@@ -58,13 +58,9 @@ function NavBar() {
                     <div key="navlist" className="navbar-start">
                         {routesList}
                     </div>
-
                     <div className="navbar-end navbar-item">
-                        <div className="control has-icons-left">
+                        <div className="control">
                             <div className="select is-medium">
-                                <span className="icon is-medium is-left ">
-                                    <box-icon name='globe'></box-icon>
-                                </span>
                                 <select value={lang} onChange={changeLanguage}>
                                     <option value="fr" defaultValue>{t('english')}</option>
                                     <option value="en">{t('french')}</option>

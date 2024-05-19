@@ -21,7 +21,7 @@ function Home() {
             <AnimationOnScroll animateIn="animate__fadeIn">
 
                 <div className="pt-6 mt-0">
-                    <div className="p-4 ml-6 mb-6 mt-6 is-size-2 has-text-centered text-underlined-purple is-size-1 is-relative">Me contacter <strong className="text-color-purple-light">.</strong></div>
+                    <div className="p-4 mb-6 mt-6 is-size-2 has-text-centered text-underlined-purple is-size-3-mobile is-size-1 is-relative">Me contacter <strong className="text-color-purple-light">.</strong></div>
                 </div>
 
                 <div className="mt-0">
@@ -30,7 +30,7 @@ function Home() {
                         <div style={{
                             'width': '400px',
                             'height': '220px'
-                        }} className="column card has-text-centered pb-6 mb-0 mr-6">
+                        }} className="column card has-text-centered pb-6 mb-1 mr-6">
                             <box-icon type='solid' name='phone' size='lg'></box-icon>
                             <div className="is-size-4">{t('tel')}</div>
                             <a href="tel:+33781594402">+33 7 81 59 44 02</a>
@@ -38,7 +38,7 @@ function Home() {
                         <div style={{
                             'width': '400px',
                             'height': '220px'
-                        }} className="column card has-text-centered pb-6 mb-0 mr-6">
+                        }} className="column card has-text-centered pb-6 mb-1 mr-6">
                             <box-icon name='envelope' type='solid' size='lg'></box-icon>
                             <p className="is-size-4">{t('mail')}</p>
                             <a href="mailto:ines.maaroufi@epitech.eu">ines.maaroufi@epitech.eu</a>

@@ -38,7 +38,7 @@ function Person() {
             <AnimationOnScroll animateIn="animate__fadeIn">
 
                 <div className="pt-6 mt-0">
-                    <div className="p-4 ml-6 mb-6 mt-6 is-size-2 has-text-centered text-underlined-purple is-size-1 is-relative">{t('experiences')} <strong className="text-color-purple-light">.</strong></div>
+                    <div className="p-4 mb-6 mt-6 is-size-2 has-text-centered text-underlined-purple is-size-3-mobile is-size-1 is-relative">{t('experiences')} <strong className="text-color-purple-light">.</strong></div>
                 </div>
 
                 <div className="mt-6"><br></br>
