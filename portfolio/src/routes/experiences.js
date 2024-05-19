@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 import Header from '../components/header'
 import Footer from '../components/footer'
@@ -24,7 +24,6 @@ function Person() {
     if (!ExperiencesData) {
         return <div />
     } else {
-        console.log(ExperiencesData[language]['experiences']);
         ExperiencesData[language]['experiences'].forEach((experience, index) => {
             experiences.push(<Cards experience={experience} index={index} key={index} />);
         });

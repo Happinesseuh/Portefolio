@@ -14,9 +14,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 function Home() {
 
-    const { t, i18n } = useTranslation();
-    let language = i18n.language;
-
+    const { t } = useTranslation();
     const ref = useRef(null);
     const handleClick = () => {
         ref.current?.scrollIntoView({ behavior: 'smooth' });

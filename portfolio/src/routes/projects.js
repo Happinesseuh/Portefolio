@@ -30,7 +30,7 @@ function Project(props) {
             <div className="columns">
                 <div className="column is-flex is-justify-content-center is-align-items-center">
                     <figure className="image is-inline-block is-pulled-left" style={{ 'width': '500px' }}>
-                        <img className="blue-border" src={picture} alt="Placeholder image" />
+                        <img className="blue-border" src={picture} alt={picture}/>
                     </figure>
                 </div>
                 <div className="column m-5">
@@ -64,7 +64,6 @@ function Projects() {
     if (!ProjectsData) {
         return <div />
     } else {
-        console.log(ProjectsData[language]['projects']);
         ProjectsData[language]['projects'].forEach((project, index) => {
             projects.push(<Project project={project} />);
         });
