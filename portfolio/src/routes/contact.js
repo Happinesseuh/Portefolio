@@ -36,18 +36,16 @@ function Home() {
                         </div>
                         <div className="column">
                             <div className="card p-3 is-flex is-align-items-center is-justify-content-center is-flex-direction-column">
-
                                 <box-icon name='envelope' type='solid' size='lg'></box-icon>
-                                <p className="is-size-4">{t('mail')}</p>
+                                <div className="is-size-4">{t('mail')}</div>
                                 <a href="mailto:ines.maaroufi@epitech.eu">ines.maaroufi@epitech.eu</a>
                             </div>
                         </div>
 
                         <div className="column">
-                            <div className="card p-3 is-flex is-align-items-center is-justify-content-center is-flex-direction-column">
-
+                            <div className="card div-3 is-flex is-align-items-center is-justify-content-center is-flex-direction-column">
                                 <box-icon name='linkedin-square' type='logo' size='lg'></box-icon>
-                                <p className="is-size-4">{t('linkedin')}</p>
+                                <div className="is-size-4">{t('linkedin')}</div>
                                 <a href="https://www.linkedin.com/in/ines-maaroufi/">https://www.linkedin.com/in/ines-maaroufi/</a>
                             </div>
                         </div>
