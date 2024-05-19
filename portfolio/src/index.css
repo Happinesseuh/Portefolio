@@ -8,11 +8,13 @@ html, body {
 }
 
 div {
-  color: black; /* Couleur uniforme pour les titres */
+  color: black;
 }
 
 .card {
+  background-color: white; /* Assurez-vous que les cartes ont un fond blanc */
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1); /* Ombre de carte uniforme */
+  border-radius: 0.75em; /* Optionnel : ajoutez des coins arrondis pour les cartes */
 }
 
 #pre-line {

@@ -37,7 +37,7 @@ function Skills() {
     skills.forEach((elem, index) => {
         skillsElem.push(
         <div className="column is-one-quarter">
-        <div className="card p-5 is-flex is-justify-content-center is-align-items-center has-background-white">
+        <div className="card p-5 is-flex is-justify-content-center is-align-items-center">
             <div>
                 <p className="has-text-weight-bold">{elem.title}</p><br />
                 <div className="tags is-flex is-justify-content-center">{elem.list}</div>
