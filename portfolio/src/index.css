@@ -1,6 +1,16 @@
-html {
+/* html {
   background-color: white !important;
   white-space: pre-line;
+} */
+
+#pre-line {
+  white-space: pre-line;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .primary-color {

@@ -13,8 +13,6 @@ function Cards(props) {
         tags.push(<span className="tag primary-color has-text-weight-bold is-size-7 has-text-white">{tag}</span>);
     });
 
-    console.log(props.experience);
-
     return (
         <div className="column is-one-third" key={props.index}>
             <div className="card ">
