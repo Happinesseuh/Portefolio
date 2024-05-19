@@ -2,7 +2,7 @@
     "fr": {
         "projects": [
             {
-                "logo": "Getout.jpeg",
+                "logo": "getout.png",
                 "sector": "Social",
                 "title": "Getout",
                 "description": "Application mobile de propositions d'alternatives à l'utilisation des réseaux sociaux tels que des films, livres et loisirs, visant à réduire le temps passé sur les réseaux sociaux des utilisateurs.",
@@ -58,7 +58,7 @@
                 "site": ""
             },
             {
-                "logo": "Area.jpeg",
+                "logo": "area-fr.png",
                 "sector": "Data",
                 "title": "Area",
                 "description": "Application web et mobile permettant à un utilisateur d'intégrer les données d'un service à une autre et d'automatiser les workflows.",
@@ -92,7 +92,7 @@
     "en": {
         "projects": [
             {
-                "logo": "Getout.png",
+                "logo": "getout.png",
                 "sector": "Social",
                 "title": "Getout",
                 "description": "Mobile application offering alternatives to the use of social networks such as films, books and leisure activities, aimed at reducing users' time spent on social networks.",
@@ -148,7 +148,7 @@
                 "site": ""
             },
             {
-                "logo": "Area.png",
+                "logo": "area.png",
                 "sector": "Data",
                 "title": "Area",
                 "description": "Web and mobile application enabling users to integrate data from one department to another and automate workflows.",
