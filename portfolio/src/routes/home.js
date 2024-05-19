@@ -23,7 +23,7 @@ function Home() {
     return (
         <div>
             <Header />
-            <div className="card m-6-not-important mobile-device"><br /><br /><br />
+            <div className="card m-6-not-important mobile-device mt-6"><br /><br /><br />
                 <div class="columns is-centered mt-6 mb-0 pb-6">
 
                     <div class="column is-three-fifths mb-0 pb-0">

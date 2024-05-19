@@ -26,22 +26,16 @@ function Home() {
 
                 <div className="mt-0">
 
-                    <div className="columns m-6 mb-0 ">
-                        <div style={{
-                            'width': '400px',
-                            'height': '220px'
-                        }} className="column has-text-centered">
-                            <div className="card is-flex is-align-items-center is-justify-content-center is-flex-direction-column">
+                    <div className="columns m-6 mb-0 is-centered">
+                        <div className="column">
+                            <div className="card p-3 is-flex is-align-items-center is-justify-content-center is-flex-direction-column">
                                 <box-icon type='solid' name='phone' size='lg'></box-icon>
                                 <div className="is-size-4">{t('tel')}</div>
                                 <a href="tel:+33781594402">+33 7 81 59 44 02</a>
                             </div>
                         </div>
-                        <div style={{
-                            'width': '400px',
-                            'height': '220px'
-                        }} className="column has-text-centered">
-                            <div className="card is-flex is-align-items-center is-justify-content-center is-flex-direction-column">
+                        <div className="column">
+                            <div className="card p-3 is-flex is-align-items-center is-justify-content-center is-flex-direction-column">
 
                                 <box-icon name='envelope' type='solid' size='lg'></box-icon>
                                 <p className="is-size-4">{t('mail')}</p>
@@ -49,11 +43,8 @@ function Home() {
                             </div>
                         </div>
 
-                        <div style={{
-                            'width': '400px',
-                            'height': '220px'
-                        }} className="column has-text-centered">
-                            <div className="card is-flex is-align-items-center is-justify-content-center is-flex-direction-column">
+                        <div className="column">
+                            <div className="card p-3 is-flex is-align-items-center is-justify-content-center is-flex-direction-column">
 
                                 <box-icon name='linkedin-square' type='logo' size='lg'></box-icon>
                                 <p className="is-size-4">{t('linkedin')}</p>

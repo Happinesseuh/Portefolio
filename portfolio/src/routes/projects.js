@@ -36,7 +36,7 @@ function Project(props) {
                 <div className="column m-5">
                     <div className="columns">
                         <div className="column">
-                            <span className="title is-4">{props.project.title} </span>
+                            <span className="title is-4 has-text-black">{props.project.title} </span>
                             <span className="is-size-6 has-text-grey">{props.project.year}</span>
                         </div>
                         <br />
